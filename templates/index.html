@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
+</head>
+<body>
+
+<div id="wrap" style="height: 100%; width: 100%; position: absolute; overflow-y: scroll;">
+
+    <div class="column">
+        <h2>OP/MS Unit visualized in Y-axis</h2>
+        <div id="plot_opms1"></div>
+        <div id="donut1">
+            <h3>The increase/decrease in OP/MS</h3>
+            <p>Increasing is better.</p>
+        </div>
+
+        <div>
+            <svg id="BarChart1" width="530" height="300"></svg>
+            <div id="select">
+                Select Suite:
+                <select id="Suite"></select>
+
+                <input type="checkbox" id="sort">
+                Toggle sort
+                <h3>Stacked barchart, filtering for Suites</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="column">
+        <h2>MS/OP Unit visualized in Y-axis</h2>
+        <div id="plot_msop1"></div>
+        <div id="donut2">
+            <h3>The increase/decrease in MS/OP</h3>
+            <p>Decreasing is better.</p>
+        </div>
+        <div>
+            <svg id="BarChart2" width="530" height="300"></svg>
+            <div id="select1">
+                Select Suite:
+                <select id="Suite1"></select>
+
+                <input type="checkbox" id="sort1">
+                Toggle sort
+                <h3>Stacked barchart, filtering for Suites</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+</div>
+
+<script>
+    var op_ms_data = {{data.op_ms_data | safe}}
+    var ms_op_data ={{data.ms_op_data | safe}}
+    var calc_perf_op_ms = {{data.calcPerformance_op_ms | safe}}
+    var calc_perf_ms_op = {{data.calcPerformance_ms_op | safe}}
+</script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='visualization.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</body>
+</html>  

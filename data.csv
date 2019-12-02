@@ -1,0 +1,121 @@
+Suite,Benchmark,Old,New,Unit
+Core API,CreateManyPropertyKeysViaCypher.setPropertiesFromMap_(format:standard)_(propsPerMap:100)_(threads:8)_(txMemory:on_heap),5952.27,27.39,ms/op
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:long),590.15,9417.63,op/s
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:long),590.15,9417.63,op/s
+Core API,CreateManyPropertyKeysViaCypher.setPropertiesFromMap_(format:standard)_(propsPerMap:100)_(threads:1)_(txMemory:on_heap),141.58,10.89,ms/op
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:long),2.08,21.19,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:long),2.08,21.19,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:100)_(type:long),1.64,12.64,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:small_string),2.24,17.18,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:1)_(type:long),401.86,3036.11,op/s
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:1)_(type:long),401.86,3036.11,op/s
+Core API,CreateNodeKey.createIndex_(keys:8)_(threads:1)_(type:long),25.49,4.52,s/op
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:small_string),700.62,3909.88,op/s
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:100)_(type:long),36.79,196.18,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:100)_(type:long),36.79,196.18,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:long),643.8,3350.68,op/s
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:long),643.8,3350.68,op/s
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:1)_(type:long),1.07,5.36,op/ms
+Core API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(keys:8)_(threads:1)_(txSize:1)_(type:long),1.05,5.25,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:small_string),730.4,3464.39,op/s
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:1)_(type:small_string),1.08,5.07,op/ms
+Core API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(keys:2)_(threads:1)_(txSize:1)_(type:long),1.25,5.79,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:1)_(type:small_string),432.25,1971.95,op/s
+Core API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(keys:2)_(threads:1)_(txSize:1)_(type:small_string),1.27,5.48,op/ms
+Core API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(keys:8)_(threads:1)_(txSize:1)_(type:small_string),1.09,4.67,op/ms
+Core API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(keys:8)_(threads:8)_(txSize:1)_(type:long),4.44,18.57,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:long),15.54,62.37,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:long),15.54,62.37,op/ms
+Core API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(keys:2)_(threads:8)_(txSize:1)_(type:long),5.8,21.84,op/ms
+Core API,CreateNodeKey.createIndex_(keys:2)_(threads:1)_(type:long),5.5,1.51,s/op
+Core API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(keys:8)_(threads:8)_(txSize:1)_(type:small_string),4.74,16.85,op/ms
+Core API,CreateIndexUnique.createIndex_(index:SCHEMA)_(threads:1)_(type:long),17.06,4.9,s/op
+Core API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(keys:2)_(threads:8)_(txSize:1)_(type:small_string),5.88,19.58,op/ms
+Core API,CreateIndexUnique.createIndex_(index:SCHEMA)_(threads:1)_(type:point),32.34,13.82,s/op
+Core API,CreateIndexUnique.createIndex_(index:SCHEMA)_(threads:1)_(type:date_time),14.29,6.46,s/op
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:small_string),15.96,35.09,op/ms
+Core API,CreateNodeKey.createIndex_(keys:2)_(threads:1)_(type:small_string),4.03,2,s/op
+Core API,CreateIndexUnique.createIndex_(index:SCHEMA)_(threads:1)_(type:small_string),17.53,8.77,s/op
+Core API,CreateIndexNonUnique.createIndex_(index:SCHEMA)_(threads:1)_(type:long),15.45,7.84,s/op
+Core API,CreateNodeKey.createIndex_(keys:8)_(threads:1)_(type:small_string),14.86,8.05,s/op
+Core API,CreateTx.createTxTakeReadLock_(threads:1)_(txMemory:on_heap),1690.67,917.84,ns/op
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:100)_(type:small_string),2.5,4.38,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:long),10.72,18.31,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:small_string),11.09,18.74,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:small_string),11.09,18.74,op/ms
+Core API,CreateIndexNonUnique.createIndex_(index:SCHEMA)_(threads:1)_(type:small_string),15.24,9.05,s/op
+Core API,CreateTx.createTxTakeWriteLock_(threads:1)_(txMemory:on_heap),1519.46,908.44,ns/op
+Core API,ReadAll.allRelationships_(format:standard)_(threads:1)_(txMemory:on_heap),536.52,335.26,ms/op
+Core API,CreateDeleteLabels.createDeleteLabel_(count:4)_(format:standard)_(threads:1)_(txMemory:on_heap)_(txSize:100),138.96,222.16,op/ms
+Core API,CreateDeleteLabels.createDeleteLabel_(count:4)_(format:standard)_(threads:1)_(txMemory:on_heap)_(txSize:100),138.96,222.16,op/ms
+Core API,CreateNodeWithMandatoryProperties.createNode_(threads:1)_(txSize:100)_(type:long),124.17,198,op/ms
+Core API,CreateUniqueNodeProperties.setProperty_(format:standard)_(index:SCHEMA)_(threads:1)_(txSize:100)_(type:long),116.18,184.75,op/ms
+Core API,CreateUniqueNodeProperties.setProperty_(format:standard)_(index:NONE)_(threads:1)_(txSize:100)_(type:long),145.96,231.81,op/ms
+Core API,CreateUniqueNodeProperties.setProperty_(format:standard)_(index:SCHEMA)_(threads:1)_(txSize:100)_(type:date_time),108.85,171.25,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:100)_(type:small_string),50.37,78.64,op/ms
+Core API,CreateDeleteNodeProperties.createDeleteProperty_(count:4)_(format:standard)_(index:COMPOSITE_SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:100)_(type:small_string),50.37,78.64,op/ms
+Core API,CreateNonUniqueNodeProperties.setProperty_(format:standard)_(index:SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:small_string),110.55,171.82,op/ms
+Core API,CreateNonUniqueNodeProperties.setProperty_(format:standard)_(index:SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:small_string),110.55,171.82,op/ms
+Core API,CreateNonUniqueNodeProperties.setProperty_(format:standard)_(index:SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:long),115.39,179.16,op/ms
+Core API,CreateNonUniqueNodeProperties.setProperty_(format:standard)_(index:SCHEMA)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:long),115.39,179.16,op/ms
+Core API,CreateDeleteNodePropertiesUnderConstraint.createDeleteProperty_(constraint:UNIQUE)_(count:4)_(format:standard)_(threads:8)_(txSize:1)_(type:small_string),12.61,19.55,op/ms
+Core API,CreateUniqueNodeProperties.setProperty_(format:standard)_(index:NONE)_(threads:1)_(txSize:100)_(type:point),132.89,205.54,op/ms
+Core API,CreateNodesWithLabelAndProperty.createNodeWithLabelAndProperty_(format:standard)_(index:SCHEMA)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:small_string),14.49,22.4,op/ms
+Core API,CreateUniqueNodeProperties.setProperty_(format:standard)_(index:NONE)_(threads:1)_(txSize:100)_(type:date_time),134.29,207.49,op/ms
+Core API,CreateUniqueNodeProperties.setProperty_(format:standard)_(index:NONE)_(threads:1)_(txSize:100)_(type:small_string),119.56,183.74,op/ms
+Core API,CreateNodeWithMandatoryProperties.createNode_(threads:8)_(txSize:100)_(type:small_string),463.11,705.09,op/ms
+Core API,CreateUniqueNodeProperties.setProperty_(format:standard)_(index:SCHEMA)_(threads:1)_(txSize:100)_(type:point),99.01,150.49,op/ms
+Core API,ConcurrentReadWriteNonUniqueNodePropertiesV2.readWrite:countNodesWithLabelKeyValueWhenSelectivityHigh_(format:standard)_(index:SCHEMA)_(threads:14)_(txSize:100)_(type:long),4.48,2.83,op/ms
+Core API,ConcurrentReadWriteNonUniqueNodePropertiesV2.readWrite:countNodesWithLabelKeyValueWhenSelectivityHigh_(format:standard)_(index:SCHEMA)_(threads:7)_(txSize:100)_(type:long),3.03,1.89,op/ms
+Core API,ConcurrentReadWriteNonUniqueNodePropertiesV2.readWrite:countNodesWithLabelKeyValueWhenSelectivityMedium_(format:standard)_(index:SCHEMA)_(threads:7)_(txSize:100)_(type:long),310.37,192.91,op/s
+Core API,ConcurrentReadWriteNonUniqueNodePropertiesV2.readWrite:countNodesWithLabelKeyValueWhenSelectivityMedium_(format:standard)_(index:SCHEMA)_(threads:14)_(txSize:100)_(type:long),445.52,273.85,op/s
+Core API,ConcurrentReadWriteNonUniqueNodePropertiesV2.readWrite:countNodesWithLabelKeyValueWhenSelectivityLow_(format:standard)_(index:SCHEMA)_(threads:7)_(txSize:100)_(type:long),31.55,19.28,op/s
+Core API,ConcurrentReadWriteNonUniqueNodePropertiesV2.readWrite:countNodesWithLabelKeyValueWhenSelectivityLow_(format:standard)_(index:SCHEMA)_(threads:14)_(txSize:100)_(type:long),46.5,27.47,op/s
+Core API,CreateCompositeIndexNonUnique.createIndex_(keys:8)_(threads:1)_(type:long),31.43,55.79,s/op
+Core API,DatabaseRecovery.recoverDatabase_(storeFormat:standard)_(threads:1)_(transactionsToRecover:100000),979.05,2066.26,ms/op
+Core API,CreateCompositeIndexNonUnique.createIndex_(keys:8)_(threads:1)_(type:small_string),25.24,67.65,s/op
+Core API,DatabaseRecovery.recoverDatabase_(storeFormat:standard)_(threads:1)_(transactionsToRecover:10000),337.46,2059.58,ms/op
+Cypher,CompositeIndexSeek.executePlan_(propertyCount:4)_(runtime:slotted)_(selectivity:0.001)_(threads:1)_(type:long),4749.86,163.68,us/op
+Cypher,CompositeIndexSeek.executePlan_(propertyCount:4)_(runtime:interpreted)_(selectivity:0.001)_(threads:1)_(type:long),4897.08,298.73,us/op
+Cypher,CompositeIndexSeek.executePlan_(propertyCount:2)_(runtime:slotted)_(selectivity:0.001)_(threads:1)_(type:long),694.61,130.73,us/op
+Cypher,NodeHashJoin.executePlan_(runtime:slotted)_(selectivity:0.01)_(threads:1),251.92,70.26,ms/op
+Cypher,CompositeIndexSeek.executePlan_(propertyCount:2)_(runtime:interpreted)_(selectivity:0.001)_(threads:1)_(type:long),806.81,259.74,us/op
+Cypher,CircleDistancePointIndexSeek.executePlan_(crs:cartesian)_(extraLevels:5)_(filtered:false)_(maxBits:60)_(ratio:0.001)_(runtime:slotted)_(threads:1)_(thresholdDelta:0.3)_(thresholdTop:0.8),201.19,66.29,ms/op
+Cypher,Distinct.executePlan_(columns:primitive)_(runtime:slotted)_(threads:1),36.76,12.44,s/op
+Cypher,CircleDistancePointIndexSeek.executePlan_(crs:cartesian)_(extraLevels:5)_(filtered:false)_(maxBits:60)_(ratio:0.1)_(runtime:slotted)_(threads:1)_(thresholdDelta:0.3)_(thresholdTop:0.8),197.3,68.99,ms/op
+Cypher,VariableDensityPointIndexSeek.executePlan_(crs:cartesian)_(extraLevels:5)_(maxBits:60)_(ratio:0.1)_(runtime:slotted)_(threads:1)_(thresholdDelta:0.3)_(thresholdTop:0.8),36.88,18.3,ms/op
+Cypher,FixedDensityPointIndexSeek.executePlan_(crs:cartesian)_(extraLevels:5)_(maxBits:60)_(ratio:0.1)_(runtime:slotted)_(threads:1)_(thresholdDelta:0.3)_(thresholdTop:0.8),35.23,18.03,ms/op
+Cypher,CompositeIndexSeek.executePlan_(propertyCount:4)_(runtime:slotted)_(selectivity:0.1)_(threads:1)_(type:long),29.7,15.73,ms/op
+Cypher,Aggregation.executePlan_(runtime:compiled-bytecode)_(threads:1)_(type:small_string),1214.88,666.17,us/op
+Cypher,Distinct.executePlan_(columns:primitive-primitive)_(runtime:slotted)_(threads:1),5.87,3.47,ms/op
+Cypher,Top.executePlan_(limit:1)_(runtime:interpreted)_(sort_type:long)_(threads:1),130.03,84.25,ms/op
+Kernel API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(kernel:records)_(keys:8)_(threads:1)_(txSize:1)_(type:long),1.1,5.32,op/ms
+Kernel API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(kernel:records)_(keys:2)_(threads:1)_(txSize:1)_(type:long),1.29,5.87,op/ms
+Kernel API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(kernel:records)_(keys:2)_(threads:1)_(txSize:1)_(type:small_string),1.31,5.54,op/ms
+Kernel API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(kernel:records)_(keys:8)_(threads:1)_(txSize:1)_(type:small_string),1.14,4.77,op/ms
+Kernel API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(kernel:records)_(keys:8)_(threads:8)_(txSize:1)_(type:long),4.49,17.67,op/ms
+Kernel API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(kernel:records)_(keys:2)_(threads:8)_(txSize:1)_(type:long),6,22.35,op/ms
+Kernel API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(kernel:records)_(keys:8)_(threads:8)_(txSize:1)_(type:small_string),4.88,17.18,op/ms
+Kernel API,CreateNodesWithCompositeIndex.createNode_(format:standard)_(kernel:records)_(keys:2)_(threads:8)_(txSize:1)_(type:small_string),6.1,19.27,op/ms
+Kernel API,FindNodeNonUnique.countNodesWithLabelKeyValueWhenSelectivityMedium_(format:standard)_(kernelImplementation:records)_(threads:8)_(type:point),35.32,15.8,ms/op
+Kernel API,FindNodeNonUnique.countNodesWithLabelKeyValueWhenSelectivityHigh_(format:standard)_(kernelImplementation:records)_(threads:8)_(type:point),3.56,1.62,ms/op
+Kernel API,FindNodeNonUnique.countNodesWithLabelKeyValueWhenSelectivityMedium_(format:standard)_(kernelImplementation:records)_(threads:1)_(type:point),17.43,8.3,ms/op
+Kernel API,FindNodeNonUnique.countNodesWithLabelKeyValueWhenSelectivityHigh_(format:standard)_(kernelImplementation:records)_(threads:1)_(type:point),1699.91,837.57,us/op
+Kernel API,FindNodeNonUnique.countNodesWithLabelKeyValueWhenSelectivityLow_(format:standard)_(kernelImplementation:records)_(threads:8)_(type:point),318.98,158.36,ms/op
+Kernel API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:SCHEMA)_(kernelImplementation:records)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:small_string),8.19,15.53,op/ms
+Kernel API,FindNodeNonUnique.countNodesWithLabelKeyValueWhenSelectivityLow_(format:standard)_(kernelImplementation:records)_(threads:1)_(type:point),143.4,81.77,ms/op
+Kernel API,CreateDeleteNodeProperties.createDeleteProperty_(count:64)_(format:standard)_(index:SCHEMA)_(kernelImplementation:records)_(threads:8)_(txMemory:on_heap)_(txSize:1)_(type:long),10.76,18.73,op/ms
+Kernel API,CreateDeleteNodePropertiesUnderConstraint.createDeleteProperty_(constraint:UNIQUE)_(count:4)_(format:standard)_(kernelImplementation:records)_(threads:8)_(txSize:1)_(type:small_string),12.65,21.21,op/ms
+Kernel API,CreateNodeWithMandatoryProperties.createNode_(kernel:records)_(threads:1)_(txSize:100)_(type:long),129.11,209.78,op/ms
+Kernel API,CreateDeleteLabels.createDeleteLabel_(count:4)_(format:standard)_(kernelImplementation:records)_(threads:1)_(txMemory:on_heap)_(txSize:100),150.38,237.51,op/ms
+Kernel API,CreateNonUniqueNodeProperties.setProperty_(format:standard)_(index:SCHEMA)_(kernel:records)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:small_string),119.22,187.71,op/ms
+Kernel API,CreateUniqueNodeProperties.setProperty_(format:standard)_(index:SCHEMA)_(kernel:records)_(threads:1)_(txSize:100)_(type:long),128.49,198.08,op/ms
+Kernel API,CreateNonUniqueNodeProperties.setProperty_(format:standard)_(index:SCHEMA)_(kernel:records)_(threads:1)_(txMemory:on_heap)_(txSize:100)_(type:long),124.01,189.15,op/ms
+Kernel API,CreateUniqueNodeProperties.setProperty_(format:standard)_(index:SCHEMA)_(kernel:records)_(threads:1)_(txSize:100)_(type:date_time),121.41,184.71,op/ms
+Kernel API,CreateUniqueNodeProperties.setProperty_(format:standard)_(index:NONE)_(kernel:records)_(threads:1)_(txSize:100)_(type:long),158.99,239.82,op/ms
+Kernel API,CreateNodeWithMandatoryProperties.createNode_(kernel:records)_(threads:1)_(txSize:100)_(type:small_string),113.86,171.2,op/ms
+Kernel API,FindNodeNonUnique.countNodesWithLabelKeyValueWhenSelectivityMedium_(format:standard)_(kernelImplementation:records)_(threads:8)_(type:long),4.46,6.72,ms/op
+Kernel API,FindNodeUnique.countNodesWithLabelKeyValue_(format:standard)_(kernelImplementation:records)_(threads:1)_(type:long),1.76,2.77,us/op
+Kernel API,FindNodeUnique.findNodeByLabelKeyValue_(format:standard)_(kernelImplementation:records)_(threads:1)_(type:long),1.67,2.7,us/op
+Page Cache,ReadV2WithoutInterference.randomRead_(percentage:1.1)_(threads:8),113.85,172.72,op/us
+Procedures,AggregationFunctionCall.testAggregation_(rows:1000000)_(threads:1),7.5,4.19,ms/op
